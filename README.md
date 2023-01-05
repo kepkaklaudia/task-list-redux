@@ -4,7 +4,7 @@
 <img src="images/myIcons/kk.png" height="15"/> Made by Klaudia Kępka
 
 ## <img src="images/myIcons/demo.png" height="20"/> Task List Demo Website:
-[Task List Demo Website](https://kepkaklaudia.github.io/taskList-react/)
+[Task List Demo Website](https://kepkaklaudia.github.io/taskList-redux/)
 
 ## <img src="images/myIcons/quick.png" height="20"/> Quick Preview
 ![gifPreview](images/preview.gif)
@@ -20,9 +20,9 @@ After clicking it, the cursor will automatically focus on the input field to ent
 ## List of Tasks
 After added new task it will be written below in the List of Tasks.
 
-On the left side of the task you will see a green square - it is a marker that allows you to mark whether the task has been completed. When you click it, a check mark will appear in the square and the text will be crossed out. When you click it again, both the strikethrough and the check mark will disappear.
+On the left side of the task you will see a green square - it is a marker that allows you to mark whether the task has been completed ✅. When you click it, a check mark will appear in the square and the text will be crossed out. When you click it again, both the strikethrough and the check mark will disappear.
 
-On the right of the task, you'll see a red square with a trash can icon. After clicking it, the corresponding task will be deleted.
+On the right of the task, you'll see a red square with a trash can icon 🗑. After clicking it, the corresponding task will be deleted.
 
 ## Responsive version
 When you are in mobile/tablet mode (maximum width of screen: 550px) you can notice some changes.
@@ -73,4 +73,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Technologies used
 <img src="images/myIcons/html.png" height="90"/> <img src="images/myIcons/css.png" height="90"/> <img src="images/myIcons/js.png" height="90"/> <img src="images/myIcons/es6.png" height="90"/> 
 
-<img src="images/myIcons/bem.png" height="90"/> <img src="images/myIcons/norm.png" height="90"/> <img src="images/myIcons/git.png" height="90"/> <img src="images/myIcons/react.png" height="90"/>
+<img src="images/myIcons/bem.png" height="90"/> <img src="images/myIcons/norm.png" height="90"/> <img src="images/myIcons/git.png" height="90"/> <img src="images/myIcons/react.png" height="90"/> <img src="images/myIcons/redux.png" height="90"/>
