@@ -1,5 +1,5 @@
-exportconstgetExampleTasks = async () => {
-  const response = fetch("/task-list-redux/exampleTasks.json");
+export const getExampleTasks = async () => {
+  const response = await fetch("/taskList-redux/exampleTasks.json");
 
   if (!response.ok) {
     new Error(response.statusText);
