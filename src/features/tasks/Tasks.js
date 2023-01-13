@@ -5,12 +5,12 @@ import Section from "../../common/Section";
 import Header from "../../common/Header";
 import { Container } from "../../common/Container/styled";
 import { Button } from "./Buttons/styled";
-import { useDispatch } from "react-redux";
-import { fetchExampleTasks } from "./tasksSlice";
-import { setTasks } from "./tasksSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchExampleTasks, selectStatus } from "./tasksSlice";
 
 function Tasks() {
   const dispatch = useDispatch();
+  const status = useSelector(selectStatus);
 
   return (
     <Container>
@@ -22,9 +22,9 @@ function Tasks() {
         extraHeaderContent={
           <Button
             onClick={() => dispatch(fetchExampleTasks())}
-            disabled={setTasks.status === "loading"}
+            disabled={status === "loading"}
           >
-           {setTasks.status === "loading" ? "Ładowanie..." : "Pobierz przykładowe zadania"}
+            {status === "loading" ? "Ładowanie..." : "Pobierz przykładowe zadania"}
           </Button>
         }
         body={<Form />}
