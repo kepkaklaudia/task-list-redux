@@ -7,9 +7,11 @@ import { Container } from "../../common/Container/styled";
 import { Button } from "./Buttons/styled";
 import { useDispatch } from "react-redux";
 import { fetchExampleTasks } from "./tasksSlice";
+import { setTasks } from "./tasksSlice";
 
 function Tasks() {
   const dispatch = useDispatch();
+
   return (
     <Container>
       <Header
@@ -20,8 +22,9 @@ function Tasks() {
         extraHeaderContent={
           <Button
             onClick={() => dispatch(fetchExampleTasks())}
+            disabled={setTasks.status === "loading"}
           >
-            Pobierz przykładowe zadania
+           {setTasks.status === "loading" ? "Ładowanie..." : "Pobierz przykładowe zadania"}
           </Button>
         }
         body={<Form />}

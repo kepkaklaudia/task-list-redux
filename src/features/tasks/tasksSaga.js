@@ -5,6 +5,7 @@ import { getExampleTasks } from "./getExampleTasks"
 function* fetchExampleTasksHandler() {
   try {
     const exampleTasks = yield call(getExampleTasks);
+    yield setTasks({status: "loading"});
     yield put(setTasks(exampleTasks));
   } catch (error) {
     yield call(alert, "Coś poszło nie tak!");
