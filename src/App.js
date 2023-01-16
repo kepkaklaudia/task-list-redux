@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Tasks from "./features/tasks/Tasks";
 import Author from "./features/tasks/author/Author";
-import { StyledNavLink } from "./styled";
+import { StyledNavLink, Navigation } from "./styled";
 
 const App = () => (
   <>
     <BrowserRouter>
-      <nav>
+      <Navigation>
         <ul>
           <li>
             <StyledNavLink to="/zadania">Zadania</StyledNavLink>
@@ -16,6 +16,7 @@ const App = () => (
             <StyledNavLink to="/autor">O autorze</StyledNavLink>
           </li>
         </ul>
+      </Navigation>
         <Switch>
           <Route path="/zadania">
             <Tasks />
@@ -24,7 +25,6 @@ const App = () => (
             <Author />
           </Route>
         </Switch>
-      </nav>
     </BrowserRouter>
   </>
 );
