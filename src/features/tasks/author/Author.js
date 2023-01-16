@@ -1,3 +1,3 @@
-const Author = () => ();
+const Author = () => {};
 
 export default Author;
