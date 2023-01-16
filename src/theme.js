@@ -17,6 +17,6 @@ export const theme = {
     mulberry: "hsl(348, 83%, 57%)",
   },
   breakpoint: {
-    mobileMax: 550,
+    mobileMax: 585,
   },
 };
