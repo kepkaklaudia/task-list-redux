@@ -1,10 +1,10 @@
-import Form from "../Form";
+import Form from "./Form";
 import TaskList from "./TaskList";
-import Buttons from "../Buttons";
+import Buttons from "./Buttons";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import { Container } from "../../../common/Container/styled";
-import { Button } from "../Buttons/styled";
+import { Button } from "./Buttons/styled";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchExampleTasks, selectStatus } from "../tasksSlice";
 
