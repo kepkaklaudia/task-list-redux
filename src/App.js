@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Tasks from "./features/tasks/Tasks";
+import TasksPage from "./features/tasks/TasksPage";
 import Author from "./features/tasks/author/Author";
 import { StyledNavLink, Navigation, UnorderedList } from "./styled";
 
@@ -19,7 +19,7 @@ const App = () => (
       </Navigation>
         <Switch>
           <Route path="/zadania">
-            <Tasks />
+            <TasksPage />
           </Route>
           <Route path="/autor">
             <Author />
