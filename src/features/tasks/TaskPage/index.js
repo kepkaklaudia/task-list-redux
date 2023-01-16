@@ -4,7 +4,7 @@ import Header from "../../../common/Header";
 import Section from "../../../common/Section";
 
 function TaskPage() {
-  const params = useParams();
+  const { id } = useParams();
 
   return (
     <Container>
@@ -12,7 +12,7 @@ function TaskPage() {
         title="Szczegóły zadania"
       />
       <Section
-        title={params.id}
+        title={id}
         body={<>details</>}
       />
     </Container>
