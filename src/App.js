@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter, NavLink, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Tasks from "./features/tasks/Tasks";
 import Author from "./features/tasks/author/Author";
+import { StyledNavLink } from "./styled";
 
 const App = () => (
   <>
@@ -9,10 +10,10 @@ const App = () => (
       <nav>
         <ul>
           <li>
-            <NavLink to="/zadania">Zadania</NavLink>
+            <StyledNavLink to="/zadania">Zadania</StyledNavLink>
           </li>
           <li>
-            <NavLink to="/autor">O autorze</NavLink>
+            <StyledNavLink to="/autor">O autorze</StyledNavLink>
           </li>
         </ul>
         <Switch>
