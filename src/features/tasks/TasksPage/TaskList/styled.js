@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
@@ -58,4 +59,8 @@ export const RemoveButton = styled(Button)`
   &:active{
     background-color: ${({theme}) => theme.color.mulberry};
   }
+`;
+
+export const StyledLink = styled(Link)`
+text-decoration: none;
 `;
