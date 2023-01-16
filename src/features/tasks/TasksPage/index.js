@@ -1,5 +1,5 @@
 import Form from "../Form";
-import TaskList from "../TaskList";
+import TaskList from "./TaskList";
 import Buttons from "../Buttons";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
