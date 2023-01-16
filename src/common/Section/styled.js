@@ -24,3 +24,7 @@ export const Title = styled.h2`
   padding: 20px;
   margin: 0;
 `;
+
+export const Details = styled.div`
+  margin: 20px;
+`;
