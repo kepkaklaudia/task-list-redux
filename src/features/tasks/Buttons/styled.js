@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 10px;
-
   @media screen and (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
     display: grid;
     grid-gap: 15px;

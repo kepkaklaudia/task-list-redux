@@ -10,6 +10,7 @@ export const Header = styled.header`
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
+  padding-right: 10px;
   border-bottom: solid 1px ${({theme}) => theme.color.gallery};
 
   @media screen and (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
