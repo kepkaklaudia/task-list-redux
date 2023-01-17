@@ -7,15 +7,11 @@ import { Container } from "../../../common/Container/styled";
 import { Button } from "./Buttons/styled";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchExampleTasks, selectStatus } from "../tasksSlice";
-import { useLocation } from "react-router-dom";
 
 function TasksPage() {
   const dispatch = useDispatch();
-  const status = useSelector(selectStatus);
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  searchParams.get("szukaj");
-  
+  const status = useSelector(selectStatus);;
+
   return (
     <Container>
       <Header
