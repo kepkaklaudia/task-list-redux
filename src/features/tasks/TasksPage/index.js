@@ -13,7 +13,9 @@ function TasksPage() {
   const dispatch = useDispatch();
   const status = useSelector(selectStatus);
   const location = useLocation();
-
+  const searchParams = new URLSearchParams(location.search);
+  searchParams.get("szukaj");
+  
   return (
     <Container>
       <Header
