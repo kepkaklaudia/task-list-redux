@@ -10,6 +10,7 @@ const Search = () => {
     <Details>
       <Input
         placeholder="Filtruj zadania🔎"
+        value={query || ""}
       />
     </Details>
   </>
