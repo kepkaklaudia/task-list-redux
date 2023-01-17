@@ -30,6 +30,10 @@ function TasksPage() {
         body={<Form />}
       />
       <Section
+        title="Wyszukiwarka"
+        body={<Search />}
+      />
+      <Section
         title="Lista zadań"
         body={<TaskList />}
         extraHeaderContent={<Buttons />}
