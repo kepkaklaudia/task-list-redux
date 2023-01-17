@@ -2,8 +2,11 @@ import { List, Item, Content, DoneButton, RemoveButton } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 import { selectTasksState, toggleTaskDone, removeTask, selectHideDone } from "../../tasksSlice";
 import { StyledLink } from "./styled";
+import { useLocation } from "react-router-dom";
 
 const TaskList = () => {
+  const location = useLocation();
+
   const { tasks } = useSelector(selectTasksState);
   const hideDone = useSelector(selectHideDone);
 
