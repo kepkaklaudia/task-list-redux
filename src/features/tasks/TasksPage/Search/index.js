@@ -1,9 +1,10 @@
-import { useLocation } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 import { Details } from "../../../../common/Section/styled";
 import { Input } from "./../../Input/styled";
 
 const Search = () => {
   const location = useLocation();
+  const history = useHistory();
   const query = (new URLSearchParams(location.search)).get("szukaj");
  
   const onInputChange = ({target}) => {
@@ -14,6 +15,7 @@ const Search = () => {
     } else {
       searchParams.set("szukaj", target.value);
     }
+    history.push(`${location.pathname}?${searchParams.toString()}`);
   };
 
   return (<>
