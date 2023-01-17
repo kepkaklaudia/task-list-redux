@@ -9,6 +9,7 @@ const Search = () => {
   return (<>
     <Details>
       <Input
+        placeholder="Filtruj zadania🔎"
       />
     </Details>
   </>
