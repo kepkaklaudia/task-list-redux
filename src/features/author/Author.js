@@ -1,7 +1,7 @@
-import { Container } from "../../../common/Container/styled";
-import Header from "../../../common/Header";
-import Section from "../../../common/Section";
-import { Details } from "../../../common/Section/styled";
+import { Container } from "../../common/Container/styled";
+import Header from "../../common/Header";
+import Section from "../../common/Section";
+import { Details } from "../../common/Section/styled";
 
 const Author = () => (
   <>
