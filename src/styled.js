@@ -26,7 +26,7 @@ export const StyledNavLink = styled(NavLink)`
     transform: scale(1.05);
   }
 
-  &:focus {
+  &.active {
     font-weight: bold;
   }
 `;
