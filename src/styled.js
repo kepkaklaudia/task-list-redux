@@ -20,8 +20,13 @@ export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   display: block;
   padding: 15px 10px; 
+  transition: 0.3s ;
 
-  &.active {
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:focus {
     font-weight: bold;
   }
 `;
