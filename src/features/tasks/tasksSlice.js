@@ -35,10 +35,18 @@ const tasksSlice = createSlice({
       state.tasks = tasks;
       state.status = "success";
     },
+    fetchExampleTasksError: (state) => {
+      state.tasks = [{
+        "content": "😲Nie udało się pobrać zadań 🔴 Może spróbujesz ponownie?",
+        "done": false,
+        "id": "error"
+      }];
+      state.status = "error";
+    },
   },
 });
 
-export const { addTask, toggleHideDone, toggleTaskDone, removeTask, setAllDone, fetchExampleTasks,  fetchExampleTasksSuccess } = tasksSlice.actions;
+export const { addTask, toggleHideDone, toggleTaskDone, removeTask, setAllDone, fetchExampleTasks,  fetchExampleTasksSuccess, fetchExampleTasksError } = tasksSlice.actions;
 
 export const selectTasksState = state => state.tasks;
 
