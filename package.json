@@ -2,7 +2,7 @@
   "name": "task-list-redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kepkaklaudia.github.io/taskList-redux/",
+  "homepage": "https://kepkaklaudia.github.io/task-list-redux/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
