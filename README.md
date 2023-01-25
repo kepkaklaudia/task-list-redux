@@ -17,6 +17,14 @@ On the right side of the input field you can find a button in teal color which i
 
 After clicking it, the cursor will automatically focus on the input field to enter a new task.
 
+## Download example tasks button
+Above Add new task button you can find a special button which you can use to download example tasks. When you press it you will see "Loading" text. Current list will be deleted and then new tasks appear.
+
+When something goes wrong, you will see the right information in the List of Tasks.
+
+## Filter tasks
+You can use search field to filter all tasks. Searching process starts with one letter.
+
 ## List of Tasks
 After added new task it will be written below in the List of Tasks.
 
@@ -29,6 +37,12 @@ After adding a task, two buttons "Ukryj ukończone" and "Ukończ wszystkie" will
 When you have any completed tasks in your list, you can hide them with the first button. The button will change its name to "Pokaż ukończone" - when you click it again, all your completed tasks will be shown again. 
 
 You can use the second button to complete all your quests. When all tasks are completed, this button is inactive.
+
+## Details of each task
+When you click on a specific task, a new subpage will be opened. You will see the details of the clicked task, especially whether the task has been completed or not.
+
+## About author
+After clicking "About the author" tab, you will go to a subpage containing a few words about the author of the application.
 
 ## Responsive version
 When you are in mobile/tablet mode (maximum width of screen: 550px) you can notice some changes.
