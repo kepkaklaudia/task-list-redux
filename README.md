@@ -81,6 +81,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Technologies used
-<img src="images/myIcons/html.png" height="90"/> <img src="images/myIcons/css.png" height="90"/> <img src="images/myIcons/js.png" height="90"/> <img src="images/myIcons/react.png" height="90"/> <img src="images/myIcons/redux.png" height="90"/>
+<img src="images/myIcons/html.png" height="90"/> <img src="images/myIcons/css.png" height="90"/> <img src="images/myIcons/js.png" height="90"/> <img src="images/myIcons/styled.png" height="90"/> <img src="images/myIcons/es6.png" height="90"/> 
+ <img src="images/myIcons/norm.png" height="90"/> <img src="images/myIcons/git.png" height="90"/>
 
-<img src="images/myIcons/styled.png" height="90"/> <img src="images/myIcons/norm.png" height="90"/> <img src="images/myIcons/git.png" height="90"/> <img src="images/myIcons/es6.png" height="90"/> 
+
+<img src="images/myIcons/react.png" height="90"/> <img src="images/myIcons/router.png" height="90"/> <img src="images/myIcons/redux.png" height="90"/> <img src="images/myIcons/saga.png" height="90"/> <img src="images/myIcons/toolkit.png" height="90"/> <img src="images/myIcons/api.png" height="90"/> <img src="images/myIcons/json.png" height="90"/>
